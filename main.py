@@ -203,6 +203,8 @@ def main():
     #using this for loop label each team on the graph
     for i, team_name in enumerate(final_merged_df['Team']):
         plt.text(x[i], y[i], team_name, fontsize=5, ha='right')
+    # Save the plot as a PNG file
+    plt.savefig(f'Expenditure_vs_Points_{league_name}.png', format='png', dpi=300)
     # Print the plot figure 
     plt.title(f'Expenditure vs Points in {league_name} (Previous 2 seasons 2022/23 and 2023/24)')
     plt.xlabel('Expenditure (Million Euros)')
