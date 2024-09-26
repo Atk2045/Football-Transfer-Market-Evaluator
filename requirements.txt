@@ -1,0 +1,8 @@
+requirements.txt
+
+requests
+beautifulsoup4
+pandas
+matplotlib
+fuzzywuzzy[speedup]
+python-Levenshtein
