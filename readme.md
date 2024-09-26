@@ -19,10 +19,16 @@ Exports the processed data to a CSV file.
 
 ### Requirements
 
-Python 3.x
-requests
-BeautifulSoup4
-pandas
-matplotlib
-fuzzywuzzy
+ Python 3.x
+
+ requests
+
+ BeautifulSoup4
+
+ pandas
+
+ matplotlib
+
+ fuzzywuzzy
+
 
