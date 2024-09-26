@@ -1,11 +1,13 @@
-API_KEY = userdata.get('API_KEY')
+
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
 from fuzzywuzzy import fuzz, process
+import os
 
+API_KEY = os.getenv('API_KEY')
 # fuzzy imported to be used for the differences in the teams names between the website and the API 
 
 # First part of the code is used to scrape the website then get the data from API
